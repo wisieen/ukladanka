@@ -1,0 +1,109 @@
+html, body
+{
+	background-color: black;
+	color: lightgray;
+	font-size: 24px;
+	font-weight: 700;
+}
+
+#container
+{
+	width:900px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#top_box
+{
+	width: 900px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+	font-size: 48px;
+	min-height: 60px;
+}
+
+#left_box
+{
+	float: left; 
+	width: 450px;
+	text-align: center;
+	min-height: 280px;
+}
+
+#right_box
+{
+	float: left; 
+	width: 450px;
+	text-align: center;
+	min-height: 280px;
+}
+
+#border
+{
+	text-align: center;
+	border: 4px solid #999999;
+	height: 230px;
+	width: 230px;
+	background-color: #333333;
+}
+
+.button
+{
+	color: gray;
+	text-align:center;
+	padding: 5px;
+	margin: 5px;
+	border: 3px solid gray;
+	cursor: pointer;
+	border-radius: 15px;
+}
+
+.button:hover
+{
+	background-color: #222222;
+	color: white;
+	border: 3px solid white;
+}
+
+.digit
+{
+	width: 40px;
+	height: 40px;
+	text-align:center;
+	line-height: 40px; /* Needed to work vertical-align */
+	vertical-align: middle;
+	padding: 5px;
+	margin: 1px;
+	border: 3px solid silver;
+	float: left;
+	cursor: pointer;
+	/* border-radius: 15px;*/
+	font-size: 28px;
+	color: #EEEEEE;
+	background-color: #0066CC;
+}
+
+#empty
+{
+	width: 40px;
+	height: 40px;
+	padding: 5px;
+	margin: 1px;
+	border: 3px solid #333333;
+	float: left;
+}
+
+.notification 
+{
+    position: absolute;
+    display: inline-block;
+    padding: .2em;
+	font-size: 14px;
+	color: black;
+	background-color: #FFE020;
+	border: 2px solid #6e9b6e;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	min-width: 130px;
+  }
